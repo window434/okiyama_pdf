@@ -1,6 +1,9 @@
-* {
-  background-color : red;
-}
 h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+button {
+  padding: 50px;
   text-align: center;
 }
