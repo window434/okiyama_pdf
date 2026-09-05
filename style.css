@@ -9,9 +9,13 @@ h1 {
 button {
   padding: 20px;
   font-size: 70px;
+  border: 5px solid black;
+  animation: animated 2s ease 0s infinite alternate;
+  animation: transform 2s ease 0s infinite alternate;
 }
 
 .btn {
+  border: 5px solid black;
   animation: animated 2s ease 0s infinite alternate;
 }
 @keyframes animated {
@@ -21,5 +25,15 @@ button {
 
   100% {
     border-radius: 200px;
+  }
+}
+
+@keyframs transform {
+  0% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-500px);
   }
 }
