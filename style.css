@@ -8,15 +8,15 @@ h1 {
 button {
   padding: 20px;
   font-size: 70px;
-  animation: animeted 2s ease 0s 1 alternate none running; 
+  animation: animated 2s ease 0s infinite alternate; 
 }
 
-@keyframes animeted {
+@keyframes animated {
   0% {
     border-radius: 0px;
   }
 
   100% {
-    border-radius: 100px;
+    border-radius: 200px;
   }
 }
