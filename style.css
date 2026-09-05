@@ -10,8 +10,8 @@ button {
   padding: 20px;
   font-size: 70px;
   border: 5px solid black;
-  animation: animated 2s ease 0s infinite alternate;
-  animation: transform 2s ease 0s infinite alternate;
+  animation: animated 2s ease 0s infinite alternate,
+             transform 2s ease 0s infinite alternate;
 }
 
 .btn {
@@ -28,7 +28,7 @@ button {
   }
 }
 
-@keyframs transform {
+@keyframes transform {
   0% {
     transform: translateY(0px);
   }
